@@ -1,0 +1,378 @@
+@charset "UTF-8";
+.navi-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.navi-ul li {
+  padding: 10px 30px;
+}
+
+.li a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Luxurious Roman', cursive;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
+#main {
+  background-image: url(../img/main.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title {
+  -webkit-animation-name: fadein;
+          animation-name: fadein;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  font-size: 50px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Luxurious Roman', cursive;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+    -webkit-transform: translatey(20px);
+            transform: translatey(20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translatey(0);
+            transform: translatey(0);
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    -webkit-transform: translatey(20px);
+            transform: translatey(20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translatey(0);
+            transform: translatey(0);
+  }
+}
+
+#about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 90vh;
+  color: #b4b1b1;
+}
+
+#about .logo {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  font-size: 30px;
+}
+
+.text {
+  text-align: center;
+  line-height: 200%;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Luxurious Roman', cursive;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
+.text h2 {
+  font-size: 50px;
+  padding-bottom: 10%;
+}
+
+.logo {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  font-size: 30px;
+}
+
+#profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 90vh;
+  background-color: #edebf5;
+}
+
+#profile .about-text {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Luxurious Roman', cursive;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
+.work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 90vh;
+  color: #b4b1b1;
+}
+
+.work-text {
+  line-height: 200%;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Luxurious Roman', cursive;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Merriweather', serif;
+  color: #b4b1b1;
+}
+
+.work-text h2 {
+  font-size: 50px;
+  padding-bottom: 10%;
+}
+
+.work-text .code {
+  text-decoration: none;
+  color: #b4b1b1;
+  border: 1px #272727 solid;
+  padding: 5px 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.box-img:hover {
+  -webkit-filter: opacity(70%);
+          filter: opacity(70%);
+  cursor: pointer;
+  top: -3px;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.work-img {
+  width: 30%;
+}
+
+.work2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 90vh;
+  color: black;
+  background-color: #edebf5;
+}
+
+.work2 .work-text2 {
+  line-height: 200%;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Luxurious Roman', cursive;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Merriweather', serif;
+  color: black;
+}
+
+.work2 .work-text2 h2 {
+  font-size: 50px;
+  padding-bottom: 10%;
+}
+
+.code {
+  text-decoration: none;
+  color: #272727;
+  border: 1px #272727 solid;
+  padding: 5px 10px;
+}
+
+#contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 90vh;
+  color: #b4b1b1;
+}
+
+footer {
+  width: 100vw;
+  height: 80px;
+  text-align: center;
+}
+
+footer div {
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 760px) {
+  /*　ハンバーガーボタン　*/
+  .hamburger {
+    display: block;
+    position: fixed;
+    z-index: 3;
+    right: 13px;
+    top: 12px;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .hamburger span {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    left: 6px;
+    background: #555;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  .hamburger span:nth-child(1) {
+    top: 10px;
+  }
+  .hamburger span:nth-child(2) {
+    top: 20px;
+  }
+  .hamburger span:nth-child(3) {
+    top: 30px;
+  }
+  /* ナビ開いてる時のボタン */
+  .hamburger.active span:nth-child(1) {
+    top: 16px;
+    left: 6px;
+    background: #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .hamburger.active span:nth-child(2),
+  .hamburger.active span:nth-child(3) {
+    top: 16px;
+    background: #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  nav.globalMenuSp {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: opacity .6s ease, visibility .6s ease;
+    transition: opacity .6s ease, visibility .6s ease;
+  }
+  nav.globalMenuSp ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+  nav.globalMenuSp ul li {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    -webkit-transition: .4s all;
+    transition: .4s all;
+  }
+  nav.globalMenuSp ul li:last-child {
+    padding-bottom: 0;
+  }
+  nav.globalMenuSp ul li:hover {
+    background: #ddd;
+  }
+  nav.globalMenuSp ul li a {
+    display: block;
+    color: #fff;
+    padding: 1em 0;
+    text-decoration: none;
+  }
+  /* このクラスを、jQueryで付与・削除する */
+  nav.globalMenuSp.active {
+    opacity: 100;
+  }
+  .navi-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: white;
+  }
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 10px;
+  }
+  section .logo {
+    -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+            writing-mode: vertical-lr;
+  }
+  .work {
+    min-height: 60vh;
+  }
+  .work2 {
+    min-height: 60vh;
+  }
+}
+/*# sourceMappingURL=style.css.map */
